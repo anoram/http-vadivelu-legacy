@@ -1,0 +1,141 @@
+html,
+body {
+    height: 100%;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+footer {
+    bottom: 0;
+}
+
+main {
+    min-height: calc(100vh - 40px);
+}
+
+.link-view {
+    text-decoration: underline;
+    color: #1565c0;
+}
+
+.link-view:hover {
+    color: #0d47a1;
+    text-decoration: underline;
+}
+
+.btn-ct {
+    display: flex;
+    flex-direction: row;
+    padding: 8px 12px;
+    border: 1px solid #EBECF0;
+    box-sizing: border-box;
+    border-radius: 45px;
+    font-size: 14px;
+}
+
+.cta {
+    background: #F4F5F7;
+}
+
+.btn-cta {
+    background: #060606;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(90deg, #060606, #424242);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(90deg, #060606, #424242);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /* background: linear-gradient(90deg, #EC297B 0%, #FAAF40 99.99%); */
+    border-radius: 49px;
+    width: 163px;
+    height: 60px;
+    border: 0;
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.nav-link {
+    font-size: 14px;
+    padding-bottom: .25rem !important;
+}
+
+.btn-cta:hover {
+    color: #fff;
+    -webkit-transition: background 1s;
+    -moz-transition: background 1s;
+    -o-transition: background 1s;
+    transition: background 1s
+}
+
+.hero {
+    font-size: 16px;
+    color: #172B4D;
+    font-weight: 500;
+
+}
+
+.address {
+    background: #172B4D;
+    color: #fff;
+    font-size: 14px;
+
+}
+
+.osy {
+    overflow-y: scroll;
+    height: 350px;
+    overflow-x: hidden;
+}
+
+.oyh {
+    overflow-y: hidden;
+    height: 180px;
+}
+
+.card {
+    background-color: #fafafa;
+    box-shadow: 0px 0px 8px 3px rgba(23, 43, 77, 0.12);
+    border: 0;
+    overflow: hidden;
+
+
+}
+
+
+.card-title {
+    color: #172B4D;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.card::-webkit-scrollbar-track-piece {
+    display: none;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    position: absolute;
+    right: 0;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cfd8dc;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #90a4ae;
+    border-radius: 4px;
+
+}
+
+::-webkit-scrollbar-track-piece:start {
+    background: transparent !important;
+}
+
+::-webkit-scrollbar-track-piece:end {
+    background: transparent !important;
+}

@@ -1,0 +1,124 @@
+{
+    "codes": [
+        {
+            "code": 100,
+            "desc": "100 Continue",
+            "file": "100.jpg"
+        },
+        {
+            "code": 101,
+            "desc": "101 Switching Protocols",
+            "file": "101.jpg"
+        },
+        {
+            "code": 200,
+            "desc": "200 OK",
+            "file": "200.jpg"
+        },
+        {
+            "code": 201,
+            "desc": "201 Created",
+            "file": "201.jpg"
+        },
+        {
+            "code": 206,
+            "desc": "206 Partial Content",
+            "file": "206.jpg"
+        },
+        {
+            "code": 301,
+            "desc": "301 Moved Permanently",
+            "file": "301.jpg"
+        },
+        {
+            "code": 302,
+            "desc": "302 Found",
+            "file": "302.jpg"
+        },
+        {
+            "code": 307,
+            "desc": "307 Temporary Redirect",
+            "file": "307.jpg"
+        },
+        {
+            "code": 400,
+            "desc": "400 Bad Request",
+            "file": "400.jpg"
+        },
+        {
+            "code": 401,
+            "desc": "401 Unauthorized",
+            "file": "401.jpg"
+        },
+        {
+            "code": 402,
+            "desc": "402 Payment Required",
+            "file": "402.jpg"
+        },
+        {
+            "code": 403,
+            "desc": "403 Forbidden",
+            "file": "403.jpg"
+        },
+        {
+            "code": 404,
+            "desc": "404 Not Found",
+            "file": "404.jpg"
+        },
+        {
+            "code": 405,
+            "desc": "405 Method Not Allowed",
+            "file": "405.jpg"
+        },
+        {
+            "code": 406,
+            "desc": "406 Not Accectable",
+            "file": "406.jpg"
+        },
+        {
+            "code": 408,
+            "desc": "408 Request Timeout",
+            "file": "408.jpg"
+        },
+        {
+            "code": 409,
+            "desc": "409 Conflict",
+            "file": "409.jpg"
+        },
+        {
+            "code": 411,
+            "desc": "411 Length Required",
+            "file": "411.jpg"
+        },
+        {
+            "code": 412,
+            "desc": "412 Precondition Failed",
+            "file": "412.jpg"
+        },
+        {
+            "code": 417,
+            "desc": "417 Expectation Failed",
+            "file": "417.jpg"
+        },
+        {
+            "code": 422,
+            "desc": "422 Unprocessable Entity",
+            "file": "422.jpg"
+        },
+        {
+            "code": 423,
+            "desc": "423 Locked",
+            "file": "423.jpg"
+        },
+        {
+            "code": 500,
+            "desc": "500 Internal Server Error",
+            "file": "500.jpg"
+        },
+        {
+            "code": 502,
+            "desc": "502 Bad Gateway",
+            "file": "502.jpg"
+        }
+    ]
+}
