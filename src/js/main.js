@@ -1,9 +1,9 @@
 let template = (e) => {
     return `
 <div class="col-lg-4 col-xs-12 py-3">
-    <a href="./${e.code}" target="_blank">
+    <a href="./${e.type[0]}/${e.code}" target="_blank">
             <div class="card">
-                    <div class="oyh"><img src="./${e.file}" class="card-img-top img-fluid" loading="lazy"></div>
+                    <div class="oyh"><img src="./${e.type[0]}/${e.file}.${e.type[0]}" class="card-img-top img-fluid" loading="lazy"></div>
                 <div class="card-body py-2">
                   <p class="card-text card-title">${e.desc} </p>
                 </div>

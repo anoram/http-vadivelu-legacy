@@ -1,124 +1,183 @@
 {
-    "codes": [
-        {
+    "codes": [{
             "code": 100,
             "desc": "100 Continue",
-            "file": "100.jpg"
+            "type": ["jpg"],
+            "file": "100"
         },
         {
             "code": 101,
             "desc": "101 Switching Protocols",
-            "file": "101.jpg"
+            "type": ["jpg"],
+            "file": "101"
         },
         {
             "code": 200,
             "desc": "200 OK",
-            "file": "200.jpg"
+            "type": ["gif","jpg"],
+            "file": "200"
         },
         {
             "code": 201,
             "desc": "201 Created",
-            "file": "201.jpg"
+            "type": ["jpg"],
+            "file": "201"
         },
         {
             "code": 206,
             "desc": "206 Partial Content",
-            "file": "206.jpg"
+            "type": ["jpg"],
+            "file": "206"
         },
         {
             "code": 301,
             "desc": "301 Moved Permanently",
-            "file": "301.jpg"
+            "type": ["jpg"],
+            "file": "301"
         },
         {
             "code": 302,
             "desc": "302 Found",
-            "file": "302.jpg"
+            "type": ["jpg"],
+            "file": "302"
         },
         {
             "code": 307,
             "desc": "307 Temporary Redirect",
-            "file": "307.jpg"
+            "type": ["jpg"],
+            "file": "307"
         },
         {
             "code": 400,
             "desc": "400 Bad Request",
-            "file": "400.jpg"
+            "type": ["gif","jpg"],
+            "file": "400"
         },
         {
             "code": 401,
             "desc": "401 Unauthorized",
-            "file": "401.jpg"
+            "type": ["jpg"],
+            "file": "401"
         },
         {
             "code": 402,
             "desc": "402 Payment Required",
-            "file": "402.jpg"
+            "type": ["jpg"],
+            "file": "402"
         },
         {
             "code": 403,
             "desc": "403 Forbidden",
-            "file": "403.jpg"
+            "type": ["jpg"],
+            "file": "403"
         },
         {
             "code": 404,
             "desc": "404 Not Found",
-            "file": "404.jpg"
+            "type": ["gif","jpg"],
+            "file": "404"
         },
         {
             "code": 405,
             "desc": "405 Method Not Allowed",
-            "file": "405.jpg"
+            "type": ["jpg"],
+            "file": "405"
         },
         {
             "code": 406,
             "desc": "406 Not Accectable",
-            "file": "406.jpg"
+            "type": ["jpg"],
+            "file": "406"
         },
         {
             "code": 408,
             "desc": "408 Request Timeout",
-            "file": "408.jpg"
+            "type": ["jpg"],
+            "file": "408"
         },
         {
             "code": 409,
             "desc": "409 Conflict",
-            "file": "409.jpg"
+            "type": ["jpg"],
+            "file": "409"
+        },
+        {
+            "code": 410,
+            "desc": "410 Gone",
+            "type": ["gif","jpg"],
+            "file": "410"
         },
         {
             "code": 411,
             "desc": "411 Length Required",
-            "file": "411.jpg"
+            "type": ["jpg"],
+            "file": "411"
         },
         {
             "code": 412,
             "desc": "412 Precondition Failed",
-            "file": "412.jpg"
+            "type": ["jpg"],
+            "file": "412"
         },
         {
             "code": 417,
             "desc": "417 Expectation Failed",
-            "file": "417.jpg"
+            "type": ["jpg"],
+            "file": "417"
+        },
+        {
+            "code": 421,
+            "desc": "421 Misdirect Request",
+            "type": ["gif"],
+            "file": "421"
         },
         {
             "code": 422,
             "desc": "422 Unprocessable Entity",
-            "file": "422.jpg"
+            "type": ["jpg"],
+            "file": "422"
         },
         {
             "code": 423,
             "desc": "423 Locked",
-            "file": "423.jpg"
+            "type": ["jpg"],
+            "file": "423"
+        },
+        {
+            "code": 424,
+            "desc": "424 Failed Dependency",
+            "type": ["gif"],
+            "file": "424"
+        },
+        {
+            "code": 499,
+            "desc": "499 Client Closed Request",
+            "type": ["gif"],
+            "file": "499"
         },
         {
             "code": 500,
             "desc": "500 Internal Server Error",
-            "file": "500.jpg"
+            "type": ["gif","jpg"],
+            "file": "500"
         },
         {
             "code": 502,
             "desc": "502 Bad Gateway",
-            "file": "502.jpg"
+            "type": ["jpg"],
+            "file": "502"
+        },
+        {
+            "code": 506,
+            "desc": "506 Variant Also Negotiates",
+            "type": ["gif"],
+            "file": "506"
+        },
+        {
+            "code": 508,
+            "desc": "508 Loop Detected",
+            "type": ["gif"],
+            "file": "508"
         }
     ]
 }
