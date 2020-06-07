@@ -3,7 +3,7 @@
  🚶‍♂️🔨HTTP Vadivelu Status codes
 
 
-#Usage
+# Usage
 https://vadivelu.anoram.com/[status_code]
 
 example https://vadivelu.anoram.com/100
