@@ -102,8 +102,44 @@ main {
 
 
 }
+.supported-formats {
+    font-size: 14px;
+    color: #e83e8c;
+    float: right;
+    font-weight: 400;
+}
+@media (min-width:360px){
+    .card-img, .card-img-top {
+        min-height: 360px;
+    }
+    .nav-link {
+        text-align: right;
+    }
+    footer > div > div >.col > span{
+        display: flex;
+    }
+    footer > div > div >.col > span a svg{
+        display: none;
+    }
+    body > footer > .cta > div > div > span {
+        visibility: hidden;
+    }
+}
 
-
+@media (min-width:961px) {
+    footer > div > div >.col > span{
+        display: inherit;
+    }
+    footer > div > div >.col > span a svg{
+        display: inherit;
+    }
+    body > footer > .cta > div > div > span {
+        visibility: inherit;
+    }
+}
+.card-img, .card-img-top {
+    min-height: 180px;
+}
 .card-title {
     color: #172B4D;
     font-weight: bold;
