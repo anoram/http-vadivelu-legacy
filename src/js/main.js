@@ -53,3 +53,4 @@ let celebration = ['happy1','happy2','happy3']
 console.image('https://vadivelu.anoram.com/'+celebration[Math.floor(Math.random()*celebration.length)]+'.gif');
 console.log(`%cCelebrating 100GB+ served`, 'font-size:40px;');
 
+

@@ -2,13 +2,13 @@
     "codes": [{
             "code": 100,
             "desc": "100 Continue",
-            "type": ["jpg"],
+            "type": ["gif","jpg"],
             "file": "100"
         },
         {
             "code": 101,
             "desc": "101 Switching Protocols",
-            "type": ["jpg"],
+            "type": ["gif","jpg"],
             "file": "101"
         },
         {
@@ -26,7 +26,7 @@
         {
             "code": 206,
             "desc": "206 Partial Content",
-            "type": ["jpg"],
+            "type": ["gif","jpg"],
             "file": "206"
         },
         {
@@ -140,7 +140,7 @@
         {
             "code": 423,
             "desc": "423 Locked",
-            "type": ["jpg"],
+            "type": ["gif","jpg"],
             "file": "423"
         },
         {
